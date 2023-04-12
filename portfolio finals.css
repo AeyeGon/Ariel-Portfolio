@@ -1,0 +1,45 @@
+.tittle
+{
+    padding: 15px;
+    border: solid green;
+    background-image: url(web\ background.jpg);
+    text-align: center; color: aliceblue;
+}
+.content
+{
+    margin-left: 700px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content1
+{
+    padding: 15px; no-repeat; overlay;
+    border: solid green;
+    margin-left: 600px;
+    margin-right: 50px;
+    font-size: 30px;
+    background-image: url(web\ background.jpg);
+    color: aliceblue;
+}
+.tittle1
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.content2
+{
+    padding: 15px;
+    border: solid green;
+    font-size: 30px;
+    margin-right: 600px;
+    background-image: url(web\ background.jpg);
+    color: aliceblue;
+}
+body
+{
+    background: url(portfolio\ bg.jpg);
+}
+#Home
+{
+    margin-top: 0px;
+}

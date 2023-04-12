@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    margin-top: 250px;
+}
+body
+/* Red border */
+hr.new1 {
+    border-top: 1px solid red;
+  }
+  p {
+    text-align: center;
+  }
+  img {
+    border-radius: 50%;
+    max-width: 250px;
+  height: auto;
+  margin-left: 500px;
+  
+  }
+  body {
+    background-image: url("web\ background.jpg");
+    background-color: #cccccc;
+    background-position: 100px;
+    background-size: 200%;
+   }
+   body
+   {
+    color: aliceblue;
+   }
+   img
+   {
+    float: right;
+    margin-right: 500px;
+   }
+   #Welcome :hover
+   {
+    color: blue;
+   }
+  

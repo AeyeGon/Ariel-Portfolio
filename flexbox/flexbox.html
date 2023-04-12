@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Demo Website</title>
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        .header{
+            text-align: center;
+            padding: 30px;
+            background-color: lightblue;;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: darkcyan;
+            justify-content: center;
+        }
+
+        .navbar a{
+            text-decoration: none;
+            color:white;
+            padding: 20px;
+            text-align:center;
+        }
+
+        .navbar a:hover {
+            background-color: black;
+            font-weight: bold;
+        }
+
+        .products{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product{
+            background-color: rgb(229, 229, 229);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .product-img{
+            height:auto;
+            max-width: 250px;
+            transition-duration: 1s;
+        }
+        .product-img:hover{
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <h1>Flexbox Website</h1>
+        <p>Demonstrate Flexbox Functionalities</p>
+    </section>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Others</a>
+    </nav>
+    <main class="products">
+        <div class="product">
+            <img class="product-img" src="https://www.pngmart.com/files/4/Asus-Laptop-PNG-Picture.png" alt="">
+            <hr>
+            <p>Laptop</p>
+            <p><strong>₱24,000.00</strong></p>
+        </div>
+        <div class="product">
+            <img class="product-img" src="https://www.pngmart.com/files/4/Asus-Laptop-PNG-Picture.png" alt="">
+            <hr>
+            <p>Laptop</p>
+            <p><strong>₱24,000.00</strong></p>
+        </div>
+
+        <div class="product">
+            <img class="product-img" src="https://www.pngmart.com/files/4/Asus-Laptop-PNG-Picture.png" alt="">
+            <hr>
+            <p>Laptop</p>
+            <p><strong>₱24,000.00</strong></p>
+        </div>
+
+        <div class="product">
+            <img class="product-img" src="https://www.pngmart.com/files/4/Asus-Laptop-PNG-Picture.png" alt="">
+            <hr>
+            <p>Laptop</p>
+            <p><strong>₱24,000.00</strong></p>
+        </div>
+    </main>
+    
+</body>
+</html>

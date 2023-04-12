@@ -1,0 +1,34 @@
+.head
+{
+    background-color: rgba(0, 0, 0, 0.735);
+    font-size: xx-large;
+    text-align: center;
+    color: aliceblue;
+}
+#skills
+{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+.title
+{
+    font-size: larger;
+    font-weight: bolder;
+
+}
+body
+{
+    background-image: url(portfolio\ bg.jpg);
+    background-size: cover;
+}
+li
+{
+    font-weight: bold;
+}
+#Contact
+{
+    background-color: gray;
+    text-align: center;
+    color: aliceblue;
+}

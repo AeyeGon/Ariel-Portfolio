@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>HTML FORM</title>
+    </head>
+    <body>
+        <h1>HTML Form</h1>
+        <form action="#">
+            <label for="First Name">Name:</label>
+            <input type="text" id="First Name" required>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" required>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="1" required>
+            <p>Gender:</p>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" id="Non-binary" name="Gender" value="Non-binary">
+            <label for="Prefer not to say">Prefer not to say</label>
+            <input type="radio" id="Prefer not to say" name="Gender" value="Prefer not to say">
+            <p>Favorate Colors:</p>
+            <label for="checkbox">Red</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Blue</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Green</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Yellow</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Other</label>
+            <input type="checkbox" id="checkbox">
+            <p></p>
+            How do you find about us?
+            <select>
+                <option value="Friend">Friend</option>
+                <option value="Social Meda">Social Meda</option>
+                <option value="Google Search">Google Search</option>
+                <option value="Advertisement">Advertisement</option>
+                <option value="Other">Other</option>
+            </select>
+            <p>Comments</p>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <br>
+            <button>submit</button>
+        </form>
+    </body>
+</html>
